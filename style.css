@@ -1,0 +1,97 @@
+.axis .domain{
+    display:none;
+}
+
+body{
+	background:#323232;
+	color:#ebf5ee;
+	font-family:"Roboto", sans-serif;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 16px;
+  font-size: 36px;
+  width: 415px;
+  float: left;
+}
+
+#info {
+  margin: 20px 0 30px 16px;
+  font-size: 14px;
+  font-weight: lighter;
+  position: relative;
+  width: 100%;
+}
+
+#country-name{
+  position: absolute;
+  font-size: 24px;
+  color:#323232;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  padding: 2% 4%;
+}
+
+.canvas {
+    min-height: 550px;
+    width: 100%;
+}
+
+.custom-tooltip {
+  background:#323232;
+  padding: 5px 5px;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity:0;
+}
+
+.custom-tooltip .title{
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+.block {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background:#323232;
+}
+
+.block div.btn-default{
+  background-color:#323232;
+  text-align: center;
+}
+
+.block div.btn-default:active{
+  background-color:#323232;
+}
+
+.block a.btn-default{
+  position: relative;
+  width: 5%;
+  height: 28px;
+  font-size: 10px;
+  padding: 7px 4px;
+  margin: auto;
+  background-color:#323232;
+  border-color:#ebf5ee;
+  border-width: .25px;
+	color:#ebf5ee;
+  border-radius: 2px;
+}
+
+.axis text{
+  fill:#ebf5ee;
+}
+
+.title, .value {
+  margin-bottom: 2px;
+}
